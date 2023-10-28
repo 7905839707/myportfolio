@@ -859,10 +859,3 @@ form.btn2{
 }
 
 /*-----------------css for media decices--------------*/
-@media(min-width:400px)
-{
-  #home{
-      background-color: rgb(173, 193, 198);
-    width:210%;
-  }
-}
