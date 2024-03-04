@@ -24,15 +24,22 @@ html{
 
 #Home {
     background-color: rgb(173, 193, 198);
-    margin-bottom: 1cm;
-    margin-top: -1cm;
-    padding-top: 2cm;
-    margin-right: 0;
-    padding-bottom: 100px;
+    margin-top: -1vw;
+    padding-top: 5vw;
+    padding-bottom: 2vw;
     width: 100%;
-    height: 100px;
+    height: 12vw;
     display: flex;
     justify-content: space-between;
+
+}
+@media screen and (max-width: 768px) {
+    #Home {
+        height:40vw;
+        padding-top: 5vw;
+        padding-bottom: 8vw;
+        width: 50ch;
+    }    
 }
 
 
@@ -43,28 +50,27 @@ html{
 .profile_name {
     float: left;
     padding-left: 1cm;
-    font-size: 20px;
-
+    font-size: 1.5vw;
     width: fit-content;
     height: fit-content;
     position: relative; ;
 }
 .topdiv {
     float: right;
-    padding-right: 1cm;
+    padding-right: 1vw;
     width: fit-content;    
-    margin-left: 10px;
+    margin-left: 10vw;
     position: relative;
 }
 .topdiv li{
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;
+    margin: 10px 15px;
 }
 .topdiv li a{
     color: #171414;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 2vw;
     position: relative;
 }
 .topdiv li a::after{
@@ -99,7 +105,7 @@ html{
     width: fit-content;
 }
 .contact_info img {
-    width: 25px;
+    width: 30px;
     margin-right: 10px;
     float: left;
 }
@@ -124,7 +130,7 @@ h2 {
 
 
 .profile_image {
-    width: 400px;
+    width: 30vw;
     border-radius: 50%;
     box-shadow: 10px 10px 5px grey;
     /* height: fit-content; */
@@ -137,7 +143,7 @@ h2 {
     display: flex;
     align-items: center;
     text-align: justify;
-    font-size: 30px;
+    font-size: 5vw;
     text-align: left;
     margin-top: 80px;
     margin-bottom: 20px;
@@ -146,7 +152,7 @@ h2 {
 }
 
 #about-me h1 {
-    font-size: 65px;
+    font-size: 5vw;
     margin-top: 90px;
     color: rgb(134, 176, 187);
 }
@@ -156,7 +162,7 @@ h2 {
 }
 
 #about-me p {
-    font-size: 25px;
+    font-size: 3vw;
     color: rgb(108, 108, 108);
     margin-top: -1cm;
     
@@ -178,19 +184,19 @@ h2 {
 }
 .all_skills {
     display: flex;
-    flex-direction: row;
+    flex-direction:row-reverse;
     flex-flow: wrap;
 }
 
 .skill {
-    border: 5px solid gray;
+    border: 2px solid gray;
     display: block;
-    border-radius: 6px;
+    border-radius: 5px;
     text-align: center;
-    margin: 50px;
+    margin: 5vw;
     /* padding: 10px; */
-    width: 2in;
-    font-size: 20px;
+    width: 30vw;
+    font-size: 4vw;
     box-shadow: 0 3px 10px rgb(33, 8, 8);
     transition: background 0.5s,transform 0.5s;
 }
@@ -201,7 +207,7 @@ h2 {
 }
 
 .skill img {
-    height: 40px;
+    height: 5vw;
     align-items: center;
 }
 
@@ -273,7 +279,7 @@ Certificate Sections
     height: fit-content;
     margin-top: 80px;
     padding: 20px 10px;
-    margin-bottom: 20px;
+    margin-bottom: 5vw;
     animation-duration: 5s;
     position: relative;
     color: #8ec2ce;
@@ -283,27 +289,27 @@ Certificate Sections
 
   .services-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(250px,fr));
     grid-gap:50px;
-    margin-top: 100px;
+    margin-top: 15vw;
   }
   .services-list div{
     background: #425356;
-    padding: 40px;
-    font-size:15px;
+    padding: 4vw;
+    font-size:2vw;
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s,transform 0.5s;
 }
 .services-list div i{
-  font-size: 50px;
-  margin-bottom: 2px;
+  font-size: 5vw;
+  margin-bottom: px;
 }
 .services-list div h2{
     margin-left: 10px;
-  font-size: 30px;
+  font-size: 3vw;
   font-weight: 500;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   color: #171414;
 }
 .services-list div a{
@@ -317,7 +323,7 @@ Certificate Sections
   background: #ff004f;
   transform: translateY(-10px);
 }
-/*-------------Portfolio--------------*/
+/*-------------portfolio--------------*/
 #Portfolio{
 padding: 50px 0;
   
@@ -419,8 +425,8 @@ padding: 50px 0;
 
 .certificate-card{
     flex: 0 0 auto;
-    width: 455px;
-    height: 366px;
+    width: 400px;
+    height: 350px;
     margin-right: 40px;
 }
 
