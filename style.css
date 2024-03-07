@@ -35,7 +35,7 @@ html{
 }
 @media screen and (max-width: 768px) {
     #Home {
-        height:40vw;
+        height:25vw;
         padding-top: 5vw;
         padding-bottom: 8vw;
         width: 50ch;
@@ -130,7 +130,7 @@ h2 {
 
 
 .profile_image {
-    width: 30vw;
+    width: 40vw;
     border-radius: 50%;
     box-shadow: 10px 10px 5px grey;
     /* height: fit-content; */
@@ -138,6 +138,7 @@ h2 {
     margin-left: 30px;
     background-size: cover;
 }
+
 
 #about-me {
     display: flex;
@@ -425,7 +426,7 @@ padding: 50px 0;
 
 .certificate-card{
     flex: 0 0 auto;
-    width: 400px;
+    width: 450px;
     height: 350px;
     margin-right: 40px;
 }
@@ -582,7 +583,7 @@ padding: 50px 0;
     padding: 20px;
     margin: 10px;
     border: 5px solid gray;
-    font-size: 18px;
+    font-size: 15px;
     height: 150px
 }
 
